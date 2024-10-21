@@ -14,6 +14,7 @@
             height: 0;
             padding-bottom: 56.25%; /* Relación de aspecto 16:9 por defecto */
             overflow: hidden;
+	    margin: 20px auto;
         }
 
         /* Estilos para el iframe responsivo */
@@ -23,7 +24,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            border: 0; /* Opcional: quita los bordes del iframe */
+            border: 0; /* Opcional: quita los bordes del iframe */            
         }
 
         /* Ajustes para pantallas pequeñas (móviles) en orientación vertical */
@@ -40,6 +41,7 @@
             padding: 0;
             display: flex;
             flex-direction: column;
+            justify-content: center;
             align-items: center;
 	    overflow: hidden; /* Evita el scroll en el body */
         }
@@ -51,7 +53,6 @@
 
         iframe {
             width: 100%; /* Ancho completo */
-	    width: 390px;
             height: 1000px; /* Altura del iframe */
             border: none;
             overflow: hidden; /* Evita el scroll */
@@ -64,9 +65,9 @@
 <body>
 
     <div class="iframe-container">
-
+	justify-content: center;
         <!-- iframe excel local -->
-        <iframe 	src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT1588e7w9-_VGc7pmaV_vOH6VTG7e3QH1SZ1ousOo0XUDGKpD5GmQh97qPh274Gg/pubhtml?gid=1186466053&amp;single=true&amp;widget=true&amp;headers=false&range=A1:F77"></iframe>
+        <iframe 		src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT1588e7w9-_VGc7pmaV_vOH6VTG7e3QH1SZ1ousOo0XUDGKpD5GmQh97qPh274Gg/pubhtml?gid=1186466053&amp;single=true&amp;widget=true&amp;headers=false&range=A1:F75"></iframe>
 
     </div>
 
